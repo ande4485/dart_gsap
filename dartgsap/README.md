@@ -17,6 +17,13 @@ This package works if you use [Jaspr](https://pub.dev/packages/jaspr) .
 
 You can create amazing animated web page:
 
+<p>
+  <img src="https://github.com/ande4485/dart_gsap/blob/main/dartgsap/doc/scrollTo.gif"
+    alt="An example of gsap dart package with Scroll To" height="400"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/ande4485/dart_gsap/blob/main/dartgsap/doc/observer.gif"
+   alt="An example of gsap dart package with Observer" height="400"/>
+</p>
 
 ⚠️
 * Please before use it, read the [GSAP licence](https://gsap.com/community/standard-license/)
