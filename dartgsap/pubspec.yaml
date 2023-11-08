@@ -1,6 +1,6 @@
 name: dart_gsap
 description: Gsap wrapper for dart.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/ande4485/dart_gsap
 issue_tracker: https://github.com/ande4485/dart_gsap/issues
 
