@@ -1,7 +1,8 @@
 name: dart_gsap
 description: Gsap wrapper for dart.
-version: 0.0.1
-homepage:
+version: 0.1.0
+repository: https://github.com/ande4485/dart_gsap
+issue_tracker: https://github.com/ande4485/dart_gsap/issues
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
@@ -50,3 +51,5 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
+topics:
+  - animation

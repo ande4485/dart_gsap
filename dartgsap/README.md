@@ -11,33 +11,52 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-An unofficial dart wrapper for [GSAP](https://gsap.com/).
+An unofficial dart wrapper for [GSAP](https://gsap.com/) (only free gsap).
 
-This package works if you use [Jaspr](https://https://pub.dev/packages/jaspr) . You can create amazing animated web page.
+This package works if you use [Jaspr](https://pub.dev/packages/jaspr) .
+
+You can create amazing animated web page:
+
 
 ⚠️
-Please before use it, read the [GSAP licence](https://gsap.com/community/standard-license/)
+* Please before use it, read the [GSAP licence](https://gsap.com/community/standard-license/)
+* This package was tested with GSAP 3.12.
 
 ## Features
 
 Not all features of Gsap are implemented,  
 
+| Lib/Plugin | Done | 
+|----------|----------|
+| Gsap | ✔️ | 
+| Timeline | ✔️ | 
+| Tween | ✔️| 
+| Observer | ✔️| 
+| Flip | ❌ | 
+| ScrollTo | ✔️ | 
+| Easel | ✔️ | 
+| ScrollTrigger | ❌ | 
+| Draggable | ❌ | 
+| MotionPath | ❌ | 
+| Text | ❌ | 
+| RoughEase | ❌ | 
+| ExpoScaleEase | ❌ | 
+| SlowMo | ❌ | 
+| CustomEase | ❌ | 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add Gsap and others plugins in your index.html like this:
 
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+```
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
-```dart
-const like = 'sample';
-```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Please refer to the [Gsap doc](https://gsap.com/docs/v3/)
+

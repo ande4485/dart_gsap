@@ -1,5 +1,6 @@
-import 'package:dart_gsap/src/js/js_gsap_utils.dart';
 import 'package:js/js_util.dart';
+
+import 'js/js_gsap_utils.dart';
 
 class GsapUtils {
   String checkPrefix(String property) => JSGsapUtils.checkPrefix(property);
