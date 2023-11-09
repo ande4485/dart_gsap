@@ -33,7 +33,7 @@ class ScrollToExampleState extends State<ScrollToExample> {
     yield nav([
       button([Text('Section 1')], id: 'section1Btn'),
       button([Text('Section 2')], id: 'section2Btn'),
-      button([Text('Section 3')], id: 'section2Btn'),
+      button([Text('Section 3')], id: 'section3Btn'),
     ]);
     yield div([
       h2([Text('Section 1')], id: 'section1'),

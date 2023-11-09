@@ -15,6 +15,7 @@ class ScrollTriggerOptions {
   external factory ScrollTriggerOptions(
       {String trigger,
       String start,
+      dynamic pin,
       String end,
       String toggleActions,
       dynamic scrub});

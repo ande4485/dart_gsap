@@ -13,7 +13,7 @@ and the Flutter guide for
 
 An unofficial dart wrapper for [GSAP](https://gsap.com/) (only free gsap).
 
-This package works if you use [Jaspr](https://pub.dev/packages/jaspr) .
+This package works if you use dart web with webdev / [Jaspr](https://pub.dev/packages/jaspr) / and other dart web package ( not tested on Flutter).
 
 You can create amazing animated web page:
 
@@ -56,7 +56,38 @@ Add Gsap and others plugins in your index.html like this:
 ```
 ## Usage
 
+Example in dart web 
 
+```dart
+Future.delayed(Duration(milliseconds: 300), () {
+      var tl = Gsap.timeline(TimeLineOptions(
+          scrollTrigger: ScrollTriggerOptions(
+              trigger: '.container',
+              start: 'top center',
+              end: '+=400',
+              scrub: 1)));
+
+      tl.from('.box', {
+        'backgroundColor': '#28a92b',
+        'rotation': 360,
+        'scale': 0,
+      });
+    });
+
+    final section = Element.section()
+      ..children.addAll([
+        Element.div()
+          ..classes = ['section_scroll']
+          ..children.add(HeadingElement.h2()..text = "Scroll down 👇"),
+        Element.div()
+          ..classes = ['section_scroll', 'container']
+          ..children.add(Element.div()..classes = ['box']),
+        Element.div()..classes = ['section_scroll'],
+      ]);
+
+```
+
+You can find others examples for [dart](https://github.com/ande4485/dart_gsap/tree/main/examples_webdev) or for [jaspr](https://github.com/ande4485/dart_gsap/tree/main/examples_jaspr)
 
 ## Additional information
 
